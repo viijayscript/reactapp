@@ -3,7 +3,7 @@
   "name": "ViijayScript : Main App",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -20,7 +20,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "https://viijayscript.github.io",
+  "start_url": "https://viijayscript.github.io/reactapp",
   "background_color": "#FFFFFF",
   "display": "standalone",
   "theme_color": "#41f21d"
