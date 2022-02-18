@@ -5,7 +5,7 @@
     <link rel="icon" href="reactapp/maskable_icon_x512.png" type="image/png" sizes="512x512">
     <link rel="manifest" href="manifest.json">
      <link rel="apple-touch-icon" href="reactapp/apple-touch-icon.png" />
-      <meta name="description" content="Modern PWA of ViijayScript" />
+      <meta name="description" content="React PWA of ViijayScript" />
       <meta name="theme-color" content="#41f21d"/>
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--
@@ -17,7 +17,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>ViijayScript PWA</title>
+    <script type="text/javascript">
+      
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <title>ViijayScript React App</title>
     <style type="text/css">
       .add-to {
         background-color: #41f21d; 
