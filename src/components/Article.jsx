@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => (
         },
         author:{
             fontSize: 14,
-            color:'lime',
+            color:'limegreen',
             lineHeight: '23px',
             fontFamily : 'Paytone One'
         },
@@ -91,7 +91,7 @@ const Article = () => {
                                     <Grid item lg={7} md={7} sm={5} xs={12} className={classes.rightcontainer}>
                                         <Typography className={classes.title}>{post.title}</Typography>
                                         <Typography className={classes.author}>
-                                            <b>Post</b> by {post.author}
+                                            <b>Made</b> by {post.author}
                                         </Typography>
                                         <Typography className={classes.description}>{post.description}</Typography>
                                         <Typography className={classes.publisher}>

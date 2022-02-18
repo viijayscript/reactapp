@@ -21,7 +21,7 @@ const [completed, setcompleted] = useState(undefined);
                     </div>
                 ):(
                     <div className="border">
-                    <NavLink to="/" className="home">Back to Home</NavLink>
+                    <NavLink to="/reactapp" className="home">Back to Home</NavLink>
                     <br/>
                     <ResponsiveEmbed src='https://www.viijayscript.com/2018/08/do-you-want-to-calculate-your-ideal-body-weight-then-use-this-calculator-now.html?m=1' allowFullScreen ratio='9:16'/>
                     </div>

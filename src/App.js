@@ -28,9 +28,9 @@ function App() {
     </Box>
         <Router>
         <Routes>
-        <Route exact path="/" element={<Article/>}/>
-        <Route exact path="/refractive" element={<Refractive/>}/>
-        <Route exact path="/idealbodyweight" element={<IdealBodyWeight/>}/>
+        <Route exact path="/reactapp" element={<Article/>}/>
+        <Route exact path="/reactapp/refractive" element={<Refractive/>}/>
+        <Route exact path="/reactapp/idealbodyweight" element={<IdealBodyWeight/>}/>
         <Route path="*" element={<Article/>}/>
         </Routes>
       </Router>
