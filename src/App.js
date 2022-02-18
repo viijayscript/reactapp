@@ -26,7 +26,7 @@ function App() {
         <InfoHeader/>
         </Box>
     </Box>
-        <Router basename="/reactapp">
+        <Router basename="/">
         <Routes>
         <Route exact path="/reactapp" element={<Article/>}/>
         <Route exact path="/reactapp/refractive" element={<Refractive/>}/>
