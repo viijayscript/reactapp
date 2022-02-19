@@ -4,7 +4,10 @@ import Header from './components/Header';
 import InfoHeader from './components/InfoHeader';
 import Refractive from './components/Refractive';
 import IdealBodyWeight from './components/IdealBodyWeight';
+import Roman from './components/Roman';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import DataStructure from './components/DataStructure';
+import SeleniumList from './components/Selenium';
 
 const useStyles = makeStyles(
   {
@@ -31,6 +34,9 @@ function App() {
         <Route exact path="/reactapp" element={<Article/>}/>
         <Route exact path="/reactapp/refractive" element={<Refractive/>}/>
         <Route exact path="/reactapp/idealbodyweight" element={<IdealBodyWeight/>}/>
+        <Route exact path="/reactapp/roman" element={<Roman/>}/>
+        <Route exact path="/reactapp/datastructure" element={<DataStructure/>}/>
+        <Route exact path="/reactapp/seleniumlist" element={<SeleniumList/>}/>
         <Route path="*" element={<Article/>}/>
         </Routes>
       </Router>
