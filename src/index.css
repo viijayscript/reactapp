@@ -44,3 +44,8 @@ code {
 .link:hover{
   color:lime;
 }
+
+.ressize
+{
+  font-size: 1.32rem;
+}

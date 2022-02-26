@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => (
         container: {
             display: 'flex',
                 padding : 5,
-                //paddingBottom:'1px!important'
+                paddingBottom:'1px!important'
         },
         rightcontainer:
         {
@@ -29,7 +29,6 @@ const useStyles = makeStyles(theme => (
         text:
         {
             marginTop: 11,
-            fontSize: 23,
             marginLeft: 68,
             fontFamily: 'Paytone One',
             fontWeight: 50
@@ -49,7 +48,7 @@ const InfoHeader = () =>
         <CardContent className={classes.container}>
            <Grid container>
                <Grid item lg={7} md={7} sm={5} xs={12} className={classes.rightcontainer}>
-                   <Typography className={classes.text}><b className={classes.textb}>ViijayScript</b> assist you to Boost your Knowledge</Typography>
+                   <Typography className={classes.text}><p className='ressize'><b className={classes.textb}>ViijayScript</b> assist you to Boost your Knowledge</p></Typography>
                </Grid>
            </Grid>
         </CardContent>
