@@ -16,8 +16,13 @@ const [completed, setcompleted] = useState(undefined);
     return(
             <div style={{padding: 20,width: "100%"}}>
                 {!completed ? (
+                    <div>
                     <div className="center">
-                    <ReactLoading type="spin" color="green" height={230} width={230}/>
+                    <ReactLoading type="spin" color="green" height={140} width={140}/>
+                    </div>
+                    <div className="showcase">
+                        <img src={require('../components/Showcase_through_ViijayScript.jpg')} height="500" width="500"/>
+                    </div>
                     </div>
                 ):(
                     <div className="border">
