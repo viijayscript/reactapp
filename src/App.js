@@ -11,6 +11,7 @@ import SeleniumList from './components/Selenium';
 import GithubIndia1 from './components/GithubIndia1';
 import GithubIndia2 from './components/GithubIndia2';
 import GithubIndia3 from './components/Githubindia3';
+import GithubIndia4 from './components/Githubindia4';
 
 const useStyles = makeStyles(
   {
@@ -43,6 +44,7 @@ function App() {
         <Route exact path="/reactapp/githubindia1" element={<GithubIndia1/>}/>
         <Route exact path="/reactapp/githubindia2" element={<GithubIndia2/>}/>
         <Route exact path="/reactapp/githubindia3" element={<GithubIndia3/>}/>
+        <Route exact path="/reactapp/githubindia4" element={<GithubIndia4/>}/>
         <Route path="*" element={<Article/>}/>
         </Routes>
       </Router>
