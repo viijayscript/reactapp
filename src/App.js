@@ -16,6 +16,8 @@ import GithubIndia5 from './components/Githubindia5';
 import GithubIndia6 from './components/Githubindia6';
 import GithubIndia7 from './components/Githubindia7';
 import GithubIndia8 from './components/Githubindia8';
+import GithubIndia9 from './components/Githubindia9';
+import GithubIndia10 from './components/Githubindia10';
 
 const useStyles = makeStyles(
   {
@@ -53,6 +55,8 @@ function App() {
         <Route exact path="/reactapp/githubindia6" element={<GithubIndia6/>}/>
         <Route exact path="/reactapp/githubindia7" element={<GithubIndia7/>}/>
         <Route exact path="/reactapp/githubindia8" element={<GithubIndia8/>}/>
+        <Route exact path="/reactapp/githubindia8" element={<GithubIndia9/>}/>
+        <Route exact path="/reactapp/githubindia8" element={<GithubIndia10/>}/>
         <Route path="*" element={<Article/>}/>
         </Routes>
       </Router>
