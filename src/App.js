@@ -55,8 +55,8 @@ function App() {
         <Route exact path="/reactapp/githubindia6" element={<GithubIndia6/>}/>
         <Route exact path="/reactapp/githubindia7" element={<GithubIndia7/>}/>
         <Route exact path="/reactapp/githubindia8" element={<GithubIndia8/>}/>
-        <Route exact path="/reactapp/githubindia8" element={<GithubIndia9/>}/>
-        <Route exact path="/reactapp/githubindia8" element={<GithubIndia10/>}/>
+        <Route exact path="/reactapp/githubindia9" element={<GithubIndia9/>}/>
+        <Route exact path="/reactapp/githubindia10" element={<GithubIndia10/>}/>
         <Route path="*" element={<Article/>}/>
         </Routes>
       </Router>
